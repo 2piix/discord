@@ -1,6 +1,6 @@
 # Discord Development Guide
 
-The first step to 
+The first step to developing Discord is to get a development environment set up. 
 
 ## Install the Pre-Requisites
 
@@ -16,7 +16,7 @@ After you get these installed, you will want to run
 
 Getting the `yesod` executables compiled will take a few minutes.  Once that is taken care of, you will have to build a sandbox in your discord directory.
 
-    git clone https://github.com/PoissonLabs/discord
+    git clone https://github.com/2piix/discord.git
     cd discord
     cabal sandbox init
     cabal install
